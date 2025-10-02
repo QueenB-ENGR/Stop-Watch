@@ -1,0 +1,95 @@
+/* Reset some default browser styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body (the page background) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* style the container box */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* style the  heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* style thetime display */
+.display {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* style the button group */
+.button {
+    margin-bottom: 20px;
+}
+
+/* style all the buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Custom timer */
+.custom-timer {
+    margin-top: 10px;
+}
+
+/* Style custom timer section */
+input[type="number"] {
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Make it mobile responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    .display {
+        font-size: 24px;
+    }
+    button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
